@@ -1,0 +1,43 @@
+.background {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  backdrop-filter: blur(8px);
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.days {
+  font-size: 400%;
+  color: white;
+}
+
+.citation {
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+}
+
+#root,
+html,
+body {
+  margin: 0;
+}
